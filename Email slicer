@@ -1,0 +1,7 @@
+def email_slicer(email):
+	username, domain = email.split("@")
+	return f"UserName:{username} \n Domain:{domain}"
+	
+email = input("Enter your name: ")
+email_sliced = email_slicer(email)
+print(email_sliced)
